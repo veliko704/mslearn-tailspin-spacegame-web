@@ -25,8 +25,8 @@ steps:
     SonarCloud: 'Sonar'
     organization: 'velikoivanov0225'
     scannerMode: 'MSBuild'
-    projectKey: 'velikoivanov0225_SonarCloudTest'
-    projectName: 'SonarCloudTest'
+    projectKey: 'velikoivanov0225_SonarCloud360'
+    projectName: 'velikoivanov0225_SonarCloud360'
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
